@@ -3,7 +3,7 @@ name: Run Unit Tests on Push
 on:
   push:
     branches:
-      -test
+      - test
 
 jobs:
   test-ubuntu:
